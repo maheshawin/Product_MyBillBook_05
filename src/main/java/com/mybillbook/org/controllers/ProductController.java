@@ -18,7 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 @RequestMapping("/products")
 @Slf4j
-@Tag(name ="Product Management Service", description = "Product Info")
+@Tag(name ="Product Management  Service", description = "Product  Info")
 public class ProductController {
   @Autowired
   ProductService productService;
